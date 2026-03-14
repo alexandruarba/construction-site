@@ -1,0 +1,62 @@
+---
+title: "Building Your Vision"
+menu:
+  main:
+    name: "Home"
+    url: "/"
+    weight: 1
+---
+
+# Building Your Vision
+
+Showcasing our completed projects and the services we offer.
+
+## Our Services
+
+### Residential Construction
+We specialize in building and renovating houses, apartments and villas to turn your dream home into reality.
+
+### Commercial Projects
+From offices to retail stores, we deliver commercial spaces that are functional, efficient and aesthetically pleasing.
+
+### Renovation & Restoration
+Our team brings new life to existing structures, preserving history while updating them for modern use.
+
+## Project Gallery
+
+![Project 1](/images/project1.jpg)
+![Project 2](/images/project2.jpg)
+![Project 3](/images/project3.jpg)
+![Project 4](/images/project4.jpg)
+![Project 5](/images/project5.jpg)
+![Project 6](/images/project6.jpg)
+
+## Price Guide
+
+| Service                | Description                         | Price Range (per m²) |
+|------------------------|-------------------------------------|----------------------|
+| **Interior Painting**  | Walls and ceilings, 1–3 coats       | **€6 – €15**         |
+| **Laminate Flooring**  | Installation of laminate planks     | **€9 – €18**         |
+| **Wall Tiling**        | Removal and installation of tiles   | **€43 – €130**       |
+
+## Request a Service
+
+To request a service, please email us at [alexandru.arba@yahoo.com](mailto:alexandru.arba@yahoo.com) with your name, the services you need (painting, flooring or tiling), and any additional details.
+
+## Client Testimonials
+
+> “The team exceeded our expectations. The project was finished on time and the quality is outstanding. We highly recommend them!”
+> — Jean P., Homeowner
+
+> “Professional, reliable and creative. They transformed our office space into something truly inspiring.”
+> — Marie L., Business Owner
+
+> “Excellent workmanship and attention to detail. The renovation preserved the character of our building while adding modern comforts.”
+> — David S., Property Manager
+
+## Contact Us
+
+For general inquiries, email us at [alexandru.arba@yahoo.com](mailto:alexandru.arba@yahoo.com).
+
+---
+© 2026 Quality Interior Works. All rights reserved.

@@ -1,0 +1,27 @@
+baseURL = "https://qualityinteriorworks.netlify.app/"
+languageCode = "en"
+title = "Quality Interior Works"
+theme = "PaperMod"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[outputs]
+home = ["HTML", "RSS"]
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    title = "Quality Interior Works"
+  [languages.fr]
+    languageName = "Français"
+    weight = 2
+    title = "Travaux Intérieurs de Qualité"
+  [languages.de]
+    languageName = "Deutsch"
+    weight = 3
+    title = "Qualitäts Innenarbeiten"
+  [languages.lu]
+    languageName = "Lëtzebuergesch"
+    weight = 4
+    title = "Qualitativ Intern Aarbechten"
