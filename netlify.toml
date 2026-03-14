@@ -1,0 +1,8 @@
+[build]
+  command = "hugo"
+  publish = "public"
+
+[build.environment]
+  # Match this to the version of Hugo you installed locally.
+  # You can check with `hugo version` in PowerShell.
+  HUGO_VERSION = "v0.157.0"
