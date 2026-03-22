@@ -1,0 +1,73 @@
+{
+  "hero_title": "Building Your Vision",
+  "hero_subtitle": "Showcasing our completed projects and the services we offer.",
+  "nav_services": "Services",
+  "nav_gallery": "Gallery",
+  "nav_testimonials": "Testimonials",
+  "nav_contact": "Contact",
+  "services_title": "Our Services",
+  "service1_title": "Residential Construction",
+  "service1_desc": "We specialize in building and renovating houses, apartments and villas to turn your dream home into reality.",
+  "service2_title": "Commercial Projects",
+  "service2_desc": "From offices to retail stores, we deliver commercial spaces that are functional, efficient and aesthetically pleasing.",
+  "service3_title": "Renovation & Restoration",
+  "service3_desc": "Our team brings new life to existing structures, preserving history while updating them for modern use.",
+  "gallery_title": "Project Gallery",
+  "testimonials_title": "Client Testimonials",
+  "testimonial1_text": "“The team exceeded our expectations. The project was finished on time and the quality is outstanding. We highly recommend them!”",
+  "testimonial1_author": "— Jean P., Homeowner",
+  "testimonial2_text": "“Professional, reliable and creative. They transformed our office space into something truly inspiring.”",
+  "testimonial2_author": "— Marie L., Business Owner",
+  "testimonial3_text": "“Excellent workmanship and attention to detail. The renovation preserved the character of our building while adding modern comforts.”",
+  "testimonial3_author": "— David S., Property Manager",
+  "contact_title": "Contact Us",
+  "label_name": "Name",
+  "label_email": "Email address",
+  "label_subject": "Subject",
+  "label_message": "Message",
+  "send_button": "Send",
+  "validation_name": "Please enter your name.",
+  "validation_email": "Please enter a valid email address.",
+  "validation_subject": "Please enter a subject.",
+  "validation_message": "Please enter your message.",
+  "footer_rights": "My Construction Works. All rights reserved.",
+  "placeholder_name": "Your name",
+  "placeholder_email": "name@example.com",
+  "placeholder_subject": "Subject",
+  "placeholder_message": "Your message",
+  "hero_image": "https://images.unsplash.com/photo-1523292562811-8fa5b5f4b2c5?auto=format&fit=crop&w=1500&q=80",
+  "gallery_images": [
+    "https://images.unsplash.com/photo-1581090265296-484aa38ae4c7?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1504113891986-2bcb5a0fda6a?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1485299634524-0000d0cf9b31?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1494145904049-0dca59b4bbad?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1490161532602-318d2b945d9d?auto=format&fit=crop&w=800&q=80"
+  ]
+  , "nav_pricing": "Pricing"
+  , "pricing_title": "Price Guide"
+  , "pricing_header_service": "Service"
+  , "pricing_header_description": "Description"
+  , "pricing_header_price": "Price Range (per m²)"
+  , "painting_title": "Interior Painting"
+  , "painting_desc": "Walls and ceilings, 1–3 coats"
+  , "painting_price": "€6 – €15"
+  , "flooring_title": "Laminate Flooring"
+  , "flooring_desc": "Installation of laminate planks"
+  , "flooring_price": "€9 – €18"
+  , "tiling_title": "Wall Tiling"
+  , "tiling_desc": "Removal and installation of tiles"
+  , "tiling_price": "€43 – €130"
+  , "request_service_title": "Request a Service"
+  , "request_name_label": "Name"
+  , "request_email_label": "Email address"
+  , "request_services_label": "Select Services"
+  , "service_painting_label": "Interior Painting"
+  , "service_flooring_label": "Laminate Flooring"
+  , "service_tiling_label": "Wall Tiling"
+  , "request_message_label": "Additional Details"
+  , "request_submit": "Send Request"
+  , "request_name_validation": "Please enter your name."
+  , "request_email_validation": "Please enter a valid email address."
+  , "request_message_validation": "Please enter details about your request."
+}

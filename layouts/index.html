@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Portfolio</title>
+    <!-- Bootstrap CSS via CDN for responsive grid and components -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!-- Custom site styles served from the static/css directory -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Construction Works</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a id="nav-services" class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a id="nav-gallery" class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a id="nav-testimonials" class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a id="nav-contact" class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a id="nav-pricing" class="nav-link" href="#pricing">Pricing</a></li>
+                    <!-- Language selector -->
+                    <li class="nav-item ms-3">
+                        <select id="language-select" class="form-select form-select-sm" aria-label="Language selector">
+                            <option value="en">EN</option>
+                            <option value="fr">FR</option>
+                            <option value="de">DE</option>
+                            <option value="lu">LU</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section d-flex align-items-center">
+        <div class="container text-center">
+            <h1 id="hero-title" class="display-4 fw-bold">Building Your Vision</h1>
+            <p id="hero-subtitle" class="lead">Showcasing our completed projects and the services we offer.</p>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <h2 id="services-title" class="text-center mb-4">Our Services</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <h5 id="service1-title" class="card-title">Residential Construction</h5>
+                            <p id="service1-desc" class="card-text">We specialize in building and renovating houses, apartments and villas to turn your dream home into reality.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <h5 id="service2-title" class="card-title">Commercial Projects</h5>
+                            <p id="service2-desc" class="card-text">From offices to retail stores, we deliver commercial spaces that are functional, efficient and aesthetically pleasing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <h5 id="service3-title" class="card-title">Renovation &amp; Restoration</h5>
+                            <p id="service3-desc" class="card-text">Our team brings new life to existing structures, preserving history while updating them for modern use.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h2 id="gallery-title" class="text-center mb-4">Project Gallery</h2>
+            <!-- Responsive image gallery using Bootstrap grid -->
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="gallery-item position-relative">
+                        <img src="https://images.unsplash.com/photo-1581090265296-484aa38ae4c7?auto=format&fit=crop&w=800&q=80" alt="Project 1" class="img-fluid rounded">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="gallery-item position-relative">
+                        <img src="https://images.unsplash.com/photo-1504113891986-2bcb5a0fda6a?auto=format&fit=crop&w=800&q=80" alt="Project 2" class="img-fluid rounded">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="gallery-item position-relative">
+                        <img src="https://images.unsplash.com/photo-1485299634524-0000d0cf9b31?auto=format&fit=crop&w=800&q=80" alt="Project 3" class="img-fluid rounded">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="gallery-item position-relative">
+                        <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80" alt="Project 4" class="img-fluid rounded">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="gallery-item position-relative">
+                        <img src="https://images.unsplash.com/photo-1494145904049-0dca59b4bbad?auto=format&fit=crop&w=800&q=80" alt="Project 5" class="img-fluid rounded">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="gallery-item position-relative">
+                        <img src="https://images.unsplash.com/photo-1490161532602-318d2b945d9d?auto=format&fit=crop&w=800&q=80" alt="Project 6" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-5 bg-light">
+        <div class="container">
+            <h2 id="pricing-title" class="text-center mb-4">Price Guide</h2>
+            <!-- Pricing list using a responsive table -->
+            <div class="table-responsive">
+                <table id="pricing-table" class="table table-bordered">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col" id="pricing-header-service">Service</th>
+                            <th scope="col" id="pricing-header-description">Description</th>
+                            <th scope="col" id="pricing-header-price">Price Range (per m²)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="painting-title">Interior Painting</td>
+                            <td id="painting-desc">Walls and ceilings, 1–3 coats</td>
+                            <td id="painting-price">€6 – €15</td>
+                        </tr>
+                        <tr>
+                            <td id="flooring-title">Laminate Flooring</td>
+                            <td id="flooring-desc">Installation of laminate planks</td>
+                            <td id="flooring-price">€9 – €18</td>
+                        </tr>
+                        <tr>
+                            <td id="tiling-title">Wall Tiling</td>
+                            <td id="tiling-desc">Removal and installation of tiles</td>
+                            <td id="tiling-price">€43 – €130</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Request Section -->
+    <section id="request-service" class="py-5">
+        <div class="container">
+            <h2 id="request-service-title" class="text-center mb-4">Request a Service</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <!-- Service request form -->
+                    <!-- Using mailto action for simplicity. To use Netlify form handling, replace action with data-netlify="true" and name. -->
+                    <form action="mailto:alexandru.arba@yahoo.com" method="post" enctype="text/plain" class="needs-validation" novalidate>
+                        <div class="mb-3">
+                            <label id="request-name-label" for="request-name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="request-name" name="name" placeholder="Your name" required>
+                            <div id="request-name-validation" class="invalid-feedback">Please enter your name.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label id="request-email-label" for="request-email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="request-email" name="email" placeholder="name@example.com" required>
+                            <div id="request-email-validation" class="invalid-feedback">Please enter a valid email address.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label id="request-services-label" class="form-label">Select Services</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="service-painting" name="services" value="Painting">
+                                <label class="form-check-label" id="service-painting-label" for="service-painting">Interior Painting</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="service-flooring" name="services" value="Flooring">
+                                <label class="form-check-label" id="service-flooring-label" for="service-flooring">Laminate Flooring</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="service-tiling" name="services" value="Tiling">
+                                <label class="form-check-label" id="service-tiling-label" for="service-tiling">Wall Tiling</label>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label id="request-message-label" for="request-message" class="form-label">Additional Details</label>
+                            <textarea class="form-control" id="request-message" name="message" rows="4" placeholder="Tell us more about your project" required></textarea>
+                            <div id="request-message-validation" class="invalid-feedback">Please enter details about your request.</div>
+                        </div>
+                        <button id="request-submit" type="submit" class="btn btn-primary">Send Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container">
+            <h2 id="testimonials-title" class="text-center mb-4">Client Testimonials</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <p id="testimonial1-text" class="card-text">“The team exceeded our expectations. The project was finished on time and the quality is outstanding. We highly recommend them!”</p>
+                            <h6 id="testimonial1-author" class="card-subtitle fw-bold mt-3">— Jean P., Homeowner</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <p id="testimonial2-text" class="card-text">“Professional, reliable and creative. They transformed our office space into something truly inspiring.”</p>
+                            <h6 id="testimonial2-author" class="card-subtitle fw-bold mt-3">— Marie L., Business Owner</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body">
+                            <p id="testimonial3-text" class="card-text">“Excellent workmanship and attention to detail. The renovation preserved the character of our building while adding modern comforts.”</p>
+                            <h6 id="testimonial3-author" class="card-subtitle fw-bold mt-3">— David S., Property Manager</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 id="contact-title" class="text-center mb-4">Contact Us</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <!-- Contact form using Bootstrap classes -->
+                    <form action="mailto:your.email@example.com" method="post" enctype="text/plain" class="needs-validation" novalidate>
+                        <div class="mb-3">
+                            <label id="label-name" for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Your name" required>
+                            <div id="validation-name" class="invalid-feedback">Please enter your name.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label id="label-email" for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
+                            <div id="validation-email" class="invalid-feedback">Please enter a valid email address.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label id="label-subject" for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                            <div id="validation-subject" class="invalid-feedback">Please enter a subject.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label id="label-message" for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+                            <div id="validation-message" class="invalid-feedback">Please enter your message.</div>
+                        </div>
+                        <button id="send-button" type="submit" class="btn btn-primary">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <small id="footer-rights">&copy; <span id="year"></span> My Construction Works. All rights reserved.</small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS served from the static/js directory -->
+    <script src="/js/script.js"></script>
+</body>
+</html>

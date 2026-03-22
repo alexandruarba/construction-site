@@ -1,0 +1,73 @@
+{
+  "hero_title": "Mir bauen Är Visioun",
+  "hero_subtitle": "Mir weisen eis fäerdeg Projeten a Servicer, déi mir ubidden.",
+  "nav_services": "Servicer",
+  "nav_gallery": "Galerie",
+  "nav_testimonials": "Clientsbewäertungen",
+  "nav_contact": "Kontakt",
+  "services_title": "Eis Servicer",
+  "service1_title": "Wunnkonstruktioun",
+  "service1_desc": "Mir spezialiséieren eis op d'Konstruktioun an Renovatioun vu Haiser, Appartementer a Villaen, fir Äert Dramhaus Realitéit ginn ze loossen.",
+  "service2_title": "Gewerbeprojeten",
+  "service2_desc": "Vun Büroen bis Geschäfter liwwere mir geschäftlech Raimlechkeeten, déi funktionell, effizient an ästhetesch sinn.",
+  "service3_title": "Renovatioun & Restauratioun",
+  "service3_desc": "Eist Team bréngt bestehenden Strukture neit Liewen, erhaalt d'Geschicht an aktualiséiert se fir modern Notzung.",
+  "gallery_title": "Projektgalerie",
+  "testimonials_title": "Clientsbewäertungen",
+  "testimonial1_text": "„D’Equipe huet eis Erwaardunge iwwerschratt. De Projet war fristgerecht fäerdeg a d’Qualitéit ass excellent. Mir recommandéieren se héich!“",
+  "testimonial1_author": "— Jean P., Hausbesëtzer",
+  "testimonial2_text": "„Professionell, zouverlässeg a kreativ. Si hunn eis Bürofläch an eppes wierklech Inspiréierendes verwandelt.“",
+  "testimonial2_author": "— Marie L., Geschäftsbesëtzerin",
+  "testimonial3_text": "„Exzellent Handwierk an Opmierksamkeet fir Detailer. D’Renovatioun huet de Charakter vun eisem Gebai erhalen an modern Komforten derbäi bruecht.“",
+  "testimonial3_author": "— David S., Immobilieverwalter",
+  "contact_title": "Kontaktéiert eis",
+  "label_name": "Numm",
+  "label_email": "E‑Mail‑Adress",
+  "label_subject": "Thema",
+  "label_message": "Noriicht",
+  "send_button": "Schécken",
+  "validation_name": "Gitt w.e.g. Ären Numm an.",
+  "validation_email": "Gitt w.e.g. eng gülteg E‑Mail‑Adress un.",
+  "validation_subject": "Gitt w.e.g. en Thema an.",
+  "validation_message": "Gitt w.e.g. Är Noriicht an.",
+  "footer_rights": "My Construction Works. All Rechter reservéiert.",
+  "placeholder_name": "Ären Numm",
+  "placeholder_email": "numm@example.com",
+  "placeholder_subject": "Thema",
+  "placeholder_message": "Är Noriicht",
+  "hero_image": "https://images.unsplash.com/photo-1523292562811-8fa5b5f4b2c5?auto=format&fit=crop&w=1500&q=80",
+  "gallery_images": [
+    "https://images.unsplash.com/photo-1581090265296-484aa38ae4c7?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1504113891986-2bcb5a0fda6a?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1485299634524-0000d0cf9b31?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1494145904049-0dca59b4bbad?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1490161532602-318d2b945d9d?auto=format&fit=crop&w=800&q=80"
+  ]
+  , "nav_pricing": "Präisguide"
+  , "pricing_title": "Präisguide"
+  , "pricing_header_service": "Service"
+  , "pricing_header_description": "Beschreiwung"
+  , "pricing_header_price": "Präisintervall (pro m²)"
+  , "painting_title": "Bannenmolerei"
+  , "painting_desc": "Maueren a Plafongen, 1–3 Schichten"
+  , "painting_price": "6 – 15 €"
+  , "flooring_title": "Laminatbuedem verleeën"
+  , "flooring_desc": "Verleeën vun Laminatplacken"
+  , "flooring_price": "9 – 18 €"
+  , "tiling_title": "Flieseverleeën"
+  , "tiling_desc": "Ewechhuele an leeën vu Fliesen"
+  , "tiling_price": "43 – 130 €"
+  , "request_service_title": "Service ufroen"
+  , "request_name_label": "Numm"
+  , "request_email_label": "E‑Mail‑Adress"
+  , "request_services_label": "Servicer auswielen"
+  , "service_painting_label": "Bannenmolerei"
+  , "service_flooring_label": "Laminatbuedem verleeën"
+  , "service_tiling_label": "Flieseverleeën"
+  , "request_message_label": "Zousätzlech Detailer"
+  , "request_submit": "Ufro schécken"
+  , "request_name_validation": "Gitt w.e.g. Ären Numm an."
+  , "request_email_validation": "Gitt w.e.g. eng gülteg E‑Mail‑Adress un."
+  , "request_message_validation": "Gitt w.e.g. Detailer zu Ärer Ufro an."
+}

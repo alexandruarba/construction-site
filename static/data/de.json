@@ -1,0 +1,73 @@
+{
+  "hero_title": "Wir bauen Ihre Vision",
+  "hero_subtitle": "Präsentation unserer abgeschlossenen Projekte und der von uns angebotenen Dienstleistungen.",
+  "nav_services": "Leistungen",
+  "nav_gallery": "Galerie",
+  "nav_testimonials": "Kundenstimmen",
+  "nav_contact": "Kontakt",
+  "services_title": "Unsere Leistungen",
+  "service1_title": "Wohnungsbau",
+  "service1_desc": "Wir sind auf den Bau und die Renovierung von Häusern, Wohnungen und Villen spezialisiert, um Ihr Traumhaus Wirklichkeit werden zu lassen.",
+  "service2_title": "Gewerbliche Projekte",
+  "service2_desc": "Von Büros bis zu Einzelhandelsgeschäften liefern wir gewerbliche Räume, die funktional, effizient und ästhetisch ansprechend sind.",
+  "service3_title": "Renovierung und Restaurierung",
+  "service3_desc": "Unser Team haucht bestehenden Strukturen neues Leben ein, indem es die Geschichte bewahrt und sie gleichzeitig für die moderne Nutzung aktualisiert.",
+  "gallery_title": "Projektgalerie",
+  "testimonials_title": "Kundenstimmen",
+  "testimonial1_text": "„Das Team übertraf unsere Erwartungen. Das Projekt wurde pünktlich fertiggestellt und die Qualität ist herausragend. Wir empfehlen sie sehr!“",
+  "testimonial1_author": "— Jean P., Hauseigentümer",
+  "testimonial2_text": "„Professionell, zuverlässig und kreativ. Sie verwandelten unser Büro in etwas wirklich Inspirierendes.“",
+  "testimonial2_author": "— Marie L., Geschäftsinhaberin",
+  "testimonial3_text": "„Hervorragende Handwerkskunst und Liebe zum Detail. Die Renovierung erhielt den Charakter unseres Gebäudes und fügte moderne Annehmlichkeiten hinzu.“",
+  "testimonial3_author": "— David S., Immobilienverwalter",
+  "contact_title": "Kontaktieren Sie uns",
+  "label_name": "Name",
+  "label_email": "E‑Mail‑Adresse",
+  "label_subject": "Betreff",
+  "label_message": "Nachricht",
+  "send_button": "Senden",
+  "validation_name": "Bitte geben Sie Ihren Namen ein.",
+  "validation_email": "Bitte geben Sie eine gültige E‑Mail‑Adresse ein.",
+  "validation_subject": "Bitte geben Sie einen Betreff ein.",
+  "validation_message": "Bitte geben Sie Ihre Nachricht ein.",
+  "footer_rights": "My Construction Works. Alle Rechte vorbehalten.",
+  "placeholder_name": "Ihr Name",
+  "placeholder_email": "name@example.com",
+  "placeholder_subject": "Betreff",
+  "placeholder_message": "Ihre Nachricht",
+  "hero_image": "https://images.unsplash.com/photo-1523292562811-8fa5b5f4b2c5?auto=format&fit=crop&w=1500&q=80",
+  "gallery_images": [
+    "https://images.unsplash.com/photo-1581090265296-484aa38ae4c7?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1504113891986-2bcb5a0fda6a?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1485299634524-0000d0cf9b31?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1494145904049-0dca59b4bbad?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1490161532602-318d2b945d9d?auto=format&fit=crop&w=800&q=80"
+  ]
+  , "nav_pricing": "Preise"
+  , "pricing_title": "Preisliste"
+  , "pricing_header_service": "Service"
+  , "pricing_header_description": "Beschreibung"
+  , "pricing_header_price": "Preisspanne (pro m²)"
+  , "painting_title": "Innenanstrich"
+  , "painting_desc": "Wände und Decken, 1–3 Anstriche"
+  , "painting_price": "6 – 15 €"
+  , "flooring_title": "Laminatverlegung"
+  , "flooring_desc": "Verlegung von Laminatplatten"
+  , "flooring_price": "9 – 18 €"
+  , "tiling_title": "Fliesenlegen"
+  , "tiling_desc": "Entfernen und Verlegen von Fliesen"
+  , "tiling_price": "43 – 130 €"
+  , "request_service_title": "Service anfragen"
+  , "request_name_label": "Name"
+  , "request_email_label": "E‑Mail‑Adresse"
+  , "request_services_label": "Services auswählen"
+  , "service_painting_label": "Innenanstrich"
+  , "service_flooring_label": "Laminatverlegung"
+  , "service_tiling_label": "Fliesenlegen"
+  , "request_message_label": "Weitere Details"
+  , "request_submit": "Anfrage senden"
+  , "request_name_validation": "Bitte geben Sie Ihren Namen ein."
+  , "request_email_validation": "Bitte geben Sie eine gültige E‑Mail‑Adresse ein."
+  , "request_message_validation": "Bitte geben Sie Details zu Ihrer Anfrage an."
+}

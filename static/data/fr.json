@@ -1,0 +1,73 @@
+{
+  "hero_title": "Construire votre vision",
+  "hero_subtitle": "Présentation de nos projets réalisés et des services que nous proposons.",
+  "nav_services": "Services",
+  "nav_gallery": "Galerie",
+  "nav_testimonials": "Témoignages",
+  "nav_contact": "Contact",
+  "services_title": "Nos services",
+  "service1_title": "Construction résidentielle",
+  "service1_desc": "Nous sommes spécialisés dans la construction et la rénovation de maisons, d'appartements et de villas pour transformer votre maison de rêve en réalité.",
+  "service2_title": "Projets commerciaux",
+  "service2_desc": "Des bureaux aux boutiques, nous réalisons des espaces commerciaux fonctionnels, efficaces et esthétiques.",
+  "service3_title": "Rénovation et restauration",
+  "service3_desc": "Notre équipe redonne vie aux structures existantes, en préservant l'histoire tout en les modernisant.",
+  "gallery_title": "Galerie de projets",
+  "testimonials_title": "Témoignages de clients",
+  "testimonial1_text": "« L'équipe a dépassé nos attentes. Le projet a été terminé à temps et la qualité est exceptionnelle. Nous les recommandons vivement !»",
+  "testimonial1_author": "— Jean P., Propriétaire",
+  "testimonial2_text": "« Professionnels, fiables et créatifs. Ils ont transformé notre espace de bureau en quelque chose de vraiment inspirant. »",
+  "testimonial2_author": "— Marie L., Propriétaire d'entreprise",
+  "testimonial3_text": "« Excellente qualité de travail et souci du détail. La rénovation a conservé le caractère de notre bâtiment tout en ajoutant des conforts modernes. »",
+  "testimonial3_author": "— David S., Gestionnaire immobilier",
+  "contact_title": "Contactez‑nous",
+  "label_name": "Nom",
+  "label_email": "Adresse électronique",
+  "label_subject": "Objet",
+  "label_message": "Message",
+  "send_button": "Envoyer",
+  "validation_name": "Veuillez saisir votre nom.",
+  "validation_email": "Veuillez saisir une adresse électronique valide.",
+  "validation_subject": "Veuillez saisir un objet.",
+  "validation_message": "Veuillez saisir votre message.",
+  "footer_rights": "My Construction Works. Tous droits réservés.",
+  "placeholder_name": "Votre nom",
+  "placeholder_email": "nom@exemple.com",
+  "placeholder_subject": "Objet",
+  "placeholder_message": "Votre message",
+  "hero_image": "https://images.unsplash.com/photo-1523292562811-8fa5b5f4b2c5?auto=format&fit=crop&w=1500&q=80",
+  "gallery_images": [
+    "https://images.unsplash.com/photo-1581090265296-484aa38ae4c7?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1504113891986-2bcb5a0fda6a?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1485299634524-0000d0cf9b31?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1494145904049-0dca59b4bbad?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1490161532602-318d2b945d9d?auto=format&fit=crop&w=800&q=80"
+  ]
+  , "nav_pricing": "Tarifs"
+  , "pricing_title": "Guide des prix"
+  , "pricing_header_service": "Service"
+  , "pricing_header_description": "Description"
+  , "pricing_header_price": "Fourchette de prix (par m²)"
+  , "painting_title": "Peinture intérieure"
+  , "painting_desc": "Murs et plafonds, 1–3 couches"
+  , "painting_price": "6 – 15 €"
+  , "flooring_title": "Pose de revêtement stratifié"
+  , "flooring_desc": "Pose de lames de stratifié"
+  , "flooring_price": "9 – 18 €"
+  , "tiling_title": "Pose de carrelage mural"
+  , "tiling_desc": "Enlèvement et pose de carreaux"
+  , "tiling_price": "43 – 130 €"
+  , "request_service_title": "Demande de service"
+  , "request_name_label": "Nom"
+  , "request_email_label": "Adresse électronique"
+  , "request_services_label": "Sélectionnez des services"
+  , "service_painting_label": "Peinture intérieure"
+  , "service_flooring_label": "Pose de stratifié"
+  , "service_tiling_label": "Pose de carrelage mural"
+  , "request_message_label": "Détails supplémentaires"
+  , "request_submit": "Envoyer la demande"
+  , "request_name_validation": "Veuillez saisir votre nom."
+  , "request_email_validation": "Veuillez saisir une adresse électronique valide."
+  , "request_message_validation": "Veuillez fournir des détails sur votre demande."
+}
