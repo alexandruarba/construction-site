@@ -35,7 +35,7 @@
   "placeholder_email": "name@example.com",
   "placeholder_subject": "Betreff",
   "placeholder_message": "Ihre Nachricht",
-  "hero_image": "https://images.unsplash.com/photo-1523292562811-8fa5b5f4b2c5?auto=format&fit=crop&w=1500&q=80",
+  "hero_image": "/images/hero.jpg",
   "gallery_images": [
     "https://images.unsplash.com/photo-1581090265296-484aa38ae4c7?auto=format&fit=crop&w=800&q=80",
     "https://images.unsplash.com/photo-1504113891986-2bcb5a0fda6a?auto=format&fit=crop&w=800&q=80",
