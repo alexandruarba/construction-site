@@ -7,22 +7,56 @@ body {
 
 /* Hero section styling */
 .hero-section {
-    background-image: url('https://images.unsplash.com/photo-1523292562811-8fa5b5f4b2c5?auto=format&fit=crop&w=1500&q=80');
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center center;
     color: white;
-    height: 60vh;
+    min-height: 560px;
+    height: 68vh;
+    max-height: 760px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 1;
+    max-width: 900px;
+}
+
+.hero-section h1 {
+    font-size: clamp(2rem, 5vw, 4.5rem);
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: clamp(1rem, 2vw, 1.35rem);
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+    .hero-section {
+        background-position: center center;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .hero-section {
+        min-height: 420px;
+        height: 52vh;
+        background-position: center top;
+    }
 }
 
 .hero-section::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    inset: 0;
+    background: rgba(0, 0, 0, 0.38);
 }
 
 .hero-section .container {
