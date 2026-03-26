@@ -4,14 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Construction Portfolio</title>
-    <!-- Bootstrap CSS via CDN for responsive grid and components -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <!-- Custom site styles served from the static/css directory -->
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 
-    <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">My Construction Works</a>
@@ -22,10 +19,9 @@
                 <ul class="navbar-nav ms-auto align-items-center">
                     <li class="nav-item"><a id="nav-services" class="nav-link" href="#services">Services</a></li>
                     <li class="nav-item"><a id="nav-gallery" class="nav-link" href="#gallery">Gallery</a></li>
-                    <li class="nav-item"><a id="nav-testimonials" class="nav-link" href="#testimonials">Testimonials</a></li>
-                    <li class="nav-item"><a id="nav-contact" class="nav-link" href="#contact">Contact</a></li>
                     <li class="nav-item"><a id="nav-pricing" class="nav-link" href="#pricing">Pricing</a></li>
-                    <!-- Language selector -->
+                    <li class="nav-item"><a id="nav-testimonials" class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#request-service">Request a Quote</a></li>
                     <li class="nav-item ms-3">
                         <select id="language-select" class="form-select form-select-sm" aria-label="Language selector">
                             <option value="en">EN</option>
@@ -39,7 +35,6 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <header class="hero-section d-flex align-items-center">
         <div class="container text-center">
             <h1 id="hero-title" class="display-4 fw-bold">Building Your Vision</h1>
@@ -47,12 +42,12 @@
         </div>
     </header>
 
-    <!-- Services Section -->
     <section id="services" class="py-5 bg-light">
         <div class="container">
             <h2 id="services-title" class="text-center mb-4">Our Services</h2>
             <div class="row g-4">
-                <div class="col-md-4">
+
+                <div class="col-md-6 col-lg-4">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body text-center">
                             <h5 id="service1-title" class="card-title">Residential Construction</h5>
@@ -60,7 +55,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+
+                <div class="col-md-6 col-lg-4">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body text-center">
                             <h5 id="service2-title" class="card-title">Commercial Projects</h5>
@@ -68,7 +64,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+
+                <div class="col-md-6 col-lg-4">
                     <div class="card h-100 shadow-sm">
                         <div class="card-body text-center">
                             <h5 id="service3-title" class="card-title">Renovation &amp; Restoration</h5>
@@ -76,55 +73,71 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-md-6 col-lg-6">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <h5 id="service4-title" class="card-title">Interior Cleaning with Natural Products</h5>
+                            <p id="service4-desc" class="card-text">Gentle interior cleaning using natural products for healthier living spaces, surfaces, and finishes.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <h5 id="service5-title" class="card-title">Exterior &amp; Roof Cleaning with Natural Enzymes</h5>
+                            <p id="service5-desc" class="card-text">Exterior façade and roof cleaning using natural enzyme-based solutions for effective, careful treatment.</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
-<!-- Featured Projects Section -->
-<section id="gallery" class="py-5">
-    <div class="container">
-        <h2 id="gallery-title" class="text-center mb-4">Featured Projects</h2>
-        <p class="text-center text-muted mb-5">A selection of completed works to help you quickly understand our style and quality.</p>
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h2 id="gallery-title" class="text-center mb-4">Featured Projects</h2>
+            <p class="text-center text-muted mb-5">A selection of completed works to help you quickly understand our style and quality.</p>
 
-        <div class="row g-4">
-            <div class="col-md-4">
-                <div class="card h-100 shadow-sm border-0">
-                    <img src="/images/project1.jpg" alt="Completed interior project 1" class="card-img-top rounded-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Painting Project</h5>
-                        <p class="card-text">Clean wall finishes and careful detail work for a bright and modern interior.</p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="/images/project1.jpg" alt="Completed interior project 1" class="card-img-top rounded-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Painting Project</h5>
+                            <p class="card-text">Clean wall finishes and careful detail work for a bright and modern interior.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card h-100 shadow-sm border-0">
-                    <img src="/images/project2.jpg" alt="Completed interior project 2" class="card-img-top rounded-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Flooring Project</h5>
-                        <p class="card-text">Neat laminate installation with a durable and elegant finish.</p>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="/images/project2.jpg" alt="Completed interior project 2" class="card-img-top rounded-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Flooring Project</h5>
+                            <p class="card-text">Neat laminate installation with a durable and elegant finish.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="card h-100 shadow-sm border-0">
-                    <img src="/images/project3.jpg" alt="Completed interior project 3" class="card-img-top rounded-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Renovation Project</h5>
-                        <p class="card-text">Updated interior space combining functionality, comfort and visual quality.</p>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="/images/project3.jpg" alt="Completed interior project 3" class="card-img-top rounded-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Renovation Project</h5>
+                            <p class="card-text">Updated interior space combining functionality, comfort and visual quality.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-    <!-- Pricing Section -->
     <section id="pricing" class="py-5 bg-light">
         <div class="container">
             <h2 id="pricing-title" class="text-center mb-4">Price Guide</h2>
-            <!-- Pricing list using a responsive table -->
             <div class="table-responsive">
                 <table id="pricing-table" class="table table-bordered">
                     <thead class="table-dark">
@@ -150,20 +163,27 @@
                             <td id="tiling-desc">Removal and installation of tiles</td>
                             <td id="tiling-price">€43 – €130</td>
                         </tr>
+                        <tr>
+                            <td id="interior-cleaning-title">Interior Natural Cleaning</td>
+                            <td id="interior-cleaning-desc">Interior cleaning using natural products</td>
+                            <td id="interior-cleaning-price">Price on request</td>
+                        </tr>
+                        <tr>
+                            <td id="exterior-cleaning-title">Exterior &amp; Roof Enzyme Cleaning</td>
+                            <td id="exterior-cleaning-desc">Exterior and roof cleaning using natural enzymes</td>
+                            <td id="exterior-cleaning-price">Price on request</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
         </div>
     </section>
 
-    <!-- Service Request Section -->
     <section id="request-service" class="py-5">
         <div class="container">
             <h2 id="request-service-title" class="text-center mb-4">Request a Service</h2>
             <div class="row justify-content-center">
                 <div class="col-md-8">
-                    <!-- Service request form -->
-                    <!-- Using mailto action for simplicity. To use Netlify form handling, replace action with data-netlify="true" and name. -->
                     <form action="mailto:alexandru.arba@yahoo.com" method="post" enctype="text/plain" class="needs-validation" novalidate>
                         <div class="mb-3">
                             <label id="request-name-label" for="request-name" class="form-label">Name</label>
@@ -177,19 +197,33 @@
                         </div>
                         <div class="mb-3">
                             <label id="request-services-label" class="form-label">Select Services</label>
+
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" id="service-painting" name="services" value="Painting">
                                 <label class="form-check-label" id="service-painting-label" for="service-painting">Interior Painting</label>
                             </div>
+
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" id="service-flooring" name="services" value="Flooring">
                                 <label class="form-check-label" id="service-flooring-label" for="service-flooring">Laminate Flooring</label>
                             </div>
+
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" id="service-tiling" name="services" value="Tiling">
                                 <label class="form-check-label" id="service-tiling-label" for="service-tiling">Wall Tiling</label>
                             </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="service-interior-cleaning" name="services" value="Interior Natural Cleaning">
+                                <label class="form-check-label" id="service-interior-cleaning-label" for="service-interior-cleaning">Interior Cleaning with Natural Products</label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="service-exterior-cleaning" name="services" value="Exterior and Roof Enzyme Cleaning">
+                                <label class="form-check-label" id="service-exterior-cleaning-label" for="service-exterior-cleaning">Exterior &amp; Roof Cleaning with Natural Enzymes</label>
+                            </div>
                         </div>
+
                         <div class="mb-3">
                             <label id="request-message-label" for="request-message" class="form-label">Additional Details</label>
                             <textarea class="form-control" id="request-message" name="message" rows="4" placeholder="Tell us more about your project" required></textarea>
@@ -202,7 +236,6 @@
         </div>
     </section>
 
-    <!-- Testimonials Section -->
     <section id="testimonials" class="py-5 bg-light">
         <div class="container">
             <h2 id="testimonials-title" class="text-center mb-4">Client Testimonials</h2>
@@ -235,51 +268,13 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-5">
-        <div class="container">
-            <h2 id="contact-title" class="text-center mb-4">Contact Us</h2>
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <!-- Contact form using Bootstrap classes -->
-                    <form action="mailto:your.email@example.com" method="post" enctype="text/plain" class="needs-validation" novalidate>
-                        <div class="mb-3">
-                            <label id="label-name" for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Your name" required>
-                            <div id="validation-name" class="invalid-feedback">Please enter your name.</div>
-                        </div>
-                        <div class="mb-3">
-                            <label id="label-email" for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
-                            <div id="validation-email" class="invalid-feedback">Please enter a valid email address.</div>
-                        </div>
-                        <div class="mb-3">
-                            <label id="label-subject" for="subject" class="form-label">Subject</label>
-                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
-                            <div id="validation-subject" class="invalid-feedback">Please enter a subject.</div>
-                        </div>
-                        <div class="mb-3">
-                            <label id="label-message" for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your message" required></textarea>
-                            <div id="validation-message" class="invalid-feedback">Please enter your message.</div>
-                        </div>
-                        <button id="send-button" type="submit" class="btn btn-primary">Send</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
         <div class="container">
             <small id="footer-rights">&copy; <span id="year"></span> My Construction Works. All rights reserved.</small>
         </div>
     </footer>
 
-    <!-- Bootstrap JS and dependencies -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Custom JS served from the static/js directory -->
     <script src="/js/script.js"></script>
 </body>
 </html>
