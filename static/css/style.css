@@ -7,9 +7,10 @@ body {
 
 /* Hero section styling */
 .hero-section {
-    background-size: cover;
+    background-size: contain;   /* KEY CHANGE */
     background-repeat: no-repeat;
-    background-position: 40% center;
+    background-position: center center;
+    background-color: #000;     /* fills empty space nicely */
     color: white;
     min-height: 560px;
     height: 68vh;
@@ -51,11 +52,10 @@ body {
     }
 }
 
-@media (max-width: 991.98px) {
+@media (min-width: 992px) {
     .hero-section {
-        min-height: 420px;
-        height: 52vh;
-        background-position: center top;
+        background-size: contain;
+        height: 80vh;
     }
 }
 
