@@ -5,9 +5,9 @@
  * @param {string} url The URL of the image to set as background.
  */
 function updateHeroImage(url) {
-  const heroSection = document.querySelector('.hero-section');
-  if (heroSection && url) {
-    heroSection.style.backgroundImage = `url('${url}')`;
+  const heroImg = document.getElementById('hero-image');
+  if (heroImg && url) {
+    heroImg.src = url;
   }
 }
 
